@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Jerry Lee
+title: Projects
+subtitle: How to pass the time
 ---
 
 I'm a technology enthusiast and programmer looking to grow as a developer. I have a passion for
