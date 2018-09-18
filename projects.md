@@ -1,22 +1,35 @@
 ---
 layout: page
 title: Projects
-subtitle: How to pass the time
+subtitle: How I pass my time
 ---
 
-I'm a technology enthusiast and programmer looking to grow as a developer. I have a passion for
-web technologies, big data, and machine learning. My interest in coding began while dabbling with
-macro scripts for a popular MMO in high school. An ongoing experience of building applications and seeing ideas 
-come to fruition continues to deepen my appreciation for code.
+Below are some of the personal projects that I've recently
+made! Please note, I am still in the process of deploying
+these projects online, if they are web applications.
 
 
-### Education ###
-* **Georgetown University**, Bachelor of Science, Computer Science, Economics, class of 2017
-* **Flatiron School**, immersive software engineering program, 2018
+## Reactive Games ##
+**[Reactive Games](https://github.com/SaturdayAM/reactive-games)** - A single page web 
+application that allows for users to play various 2D games with account functionality.
+These include "Snake", "2048", and a dungeon crawler game created using the Phaser JS
+library. [Backend API](https://github.com/SaturdayAM/reactive-games-backend) built with 
+Ruby on Rails and PostgreSQL.
 
 
-### Technologies ###
-* Familiar Languages: Javascript, Ruby
-* Previous Experience: Python, Java, C++
-* Frameworks: React, Ruby on Rails
-* Version Control: Git
+
+## Crypto Home ##
+**[Crypto Home](https://github.com/SaturdayAM/crypto-home-frontend)** - A single page web 
+application that allows for users to track crypto currency data as well as create
+an account and live chat on a chatroom. Implemented with Action Cable (chat room 
+functionality), Ruby on Rails ([back end](https://github.com/SaturdayAM/crypto-home)), 
+and the D3 JS library (chart plotting). Live fetches crypto data from the CryptoCompare API.
+
+
+## TREC Data Search Engine ##
+**[TREC Data Search Engine](hhttps://github.com/SaturdayAM/TRECSearch)** - A search engine 
+built from scratch with Python that retrieves over NIST Text Retrieval Conference test 
+collections. Note, this is a command line app. Engine includes tokenization, indexing, query 
+processing, Cosine vector space relevance ranking, and pseudo-relevance feedback query 
+expansion (Mean Average Precision of 0.3745, ~ 1100 lines total).
+
